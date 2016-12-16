@@ -10,13 +10,26 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Description of your Plugin
+Ask Jarvis to search on wikipedia the definition of a word or a sentence / Demander à Jarvis de chercher une définition d'un mot ou une phrase sur wikipedia
 
 ## Usage
+EN
+
 ```
-You: example of how to trigger the command
-Jarvis: output from Jarvis
+You: Give me the definition of XXXXX
+Jarvis: I'm searching
+Jarvis: XXXXXXXXXXX
+```
+------------------------------------------------------------------
+FR
+
+```
+You: Donnes moi la definition de XXXXX
+Jarvis: Je me renseigne
+Jarvis: XXXXXXXXXXX
 ```
 
+
 ## Author
-[your name](http://your.website)
+[Gilles]
+

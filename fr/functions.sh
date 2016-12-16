@@ -30,18 +30,18 @@ local jv_pg_wk_result=$(curl -s "$LIMITED_WIKI_QUERY" | jq -r '.')
 #definition 
 local jv_pg_wk_definition=$(echo "$jv_pg_wk_result" | jq -r '.[2][0]')
 
-#search if w list is used
-if [[ "$jv_pg_wk_definition" =~ "may refer to:" ]]
+#détection changement vers prochaine definiton
+if [[ "$jv_pg_wk_definition" =~ "peut désigner :" || "$jv_pg_wk_definition" =~ "peut faire référence à :" || "$jv_pg_wk_definition" =~ "désigne notamment :" ]]
 then
 jv_pg_wk_definition=$(echo "$jv_pg_wk_result" | jq -r '.[2][1]')
 else
 jv_pg_wk_definition=$(echo "$jv_pg_wk_result" | jq -r '.[2][0]')
 fi
 
-#search if the result is null or empty
+#recherche si le résultat est vide ou null
 if [ "$jv_pg_wk_definition" = "null" ] | [ -z "$jv_pg_wk_definition" ]
 then
-echo "I found nothing"
+echo "Je n'ai rien trouvé"
 else
 echo "$jv_pg_wk_definition"
 fi
