@@ -1,2 +1,10 @@
-*DONNE*DEFINITION*D'UNE|*D'UN|*DU|*DE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
-*QU'EST*CE*QU'UN|*QU'UNE|*QUE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*DONNE*DEFINITION*DE*LA (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*DONNE*DEFINITION*DU (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*DONNE*DEFINITION*D'UNE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*DONNE*DEFINITION*D'UN (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*DONNE*DEFINITION*DE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+
+*QU'EST*CE*QU'UN (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*QU'EST*CE*QU'UNE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*QU'EST*CE*QUE*LE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*QU'EST*CE*QUE*LA (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
