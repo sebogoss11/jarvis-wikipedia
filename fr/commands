@@ -1,1 +1,2 @@
-*DONNE*DEFINITION*DE (*)==say "Je me renseigne" && say "$(jv_pg_wk_search "(1)")"
+*DONNE*DEFINITION*DE (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
+*QU*CE*QU (*)==say "Je me renseigne sur wikipédia Monsieur.." && say "$(jv_pg_wk_search "(1)")"
